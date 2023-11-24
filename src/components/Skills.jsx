@@ -22,36 +22,36 @@ const Skills = () => {
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={HTML} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={HTML} alt="icon" />
             <p className="my-4">HTML</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={CSS} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={CSS} alt="icon" />
             <p className="my-4">CSS</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={JavaScript} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={JavaScript} alt="icon" />
             <p className="my-4">JAVASCRIPT</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={ReactImg} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={ReactImg} alt="icon" />
             <p className="my-4">REACT</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={GitHub} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={GitHub} alt="icon" />
             <p className="my-4">GITHUB</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Redux} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={Redux} alt="icon" />
             <p className="my-4">REDUX</p>
           </div>
 
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Tailwind} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={Tailwind} alt="icon" />
             <p className="my-4">TAILWIND</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Typescript} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={Typescript} alt="icon" />
             <p className="my-4">TYPESCRIPT</p>
           </div>
         </div>

@@ -16,7 +16,7 @@ const Navbar = () => {
           <img
             className="h-20 mt-3 mx-auto object-cover rounded-full w-20"
             src={Logo}
-            alt="Logo Image"
+            alt="Logo"
           />
         </Link>
       </div>
