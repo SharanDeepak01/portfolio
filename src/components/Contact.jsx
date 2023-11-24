@@ -10,12 +10,12 @@ const Contact = () => {
     >
       <h2 className="text-white text-3xl font-semibold">Contact me</h2>
       <div className="flex items-center mt-8">
-        <img className="w-10" src={Mail} />
+        <img className="w-10" alt="image" src={Mail} />
         <p className="text-white ml-2">sharandeepak8525@gmail.com</p>
       </div>
       <a href="https://www.linkedin.com/in/sharan-deepak-908b0a19b/">
         <div className="flex items-center mt-8">
-          <img className="w-10" src={linkedin} />
+          <img className="w-10" alt="image" src={linkedin} />
           <p className="text-white ml-2">linkedin</p>
         </div>
       </a>
