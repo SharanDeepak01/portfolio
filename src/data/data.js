@@ -1,5 +1,6 @@
 import Todo from "../assets/projects/Todo-List.png";
 import Foodie from "../assets/projects/Foodie.png";
+import inshort from "../assets/projects/inshort2.png";
 
 export const data = [
   {
@@ -11,6 +12,13 @@ export const data = [
   },
   {
     id: 2,
+    name: "Myshorts (Inshorts clone)",
+    image: inshort,
+    github: "",
+    live: "https://github.com/SharanDeepak01/myshorts",
+  },
+  {
+    id: 3,
     name: "Todo app",
     image: Todo,
     github: "",
