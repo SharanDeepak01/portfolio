@@ -17,7 +17,7 @@ const Home = () => {
         <p className="text-[#8892b0] py-4 max-w-[700px]">
           In love with Javascript and React
         </p>
-        <div>
+        <div className="flex">
           <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">
             <Link to="work" smooth={true} duration={500}>
               Projects
@@ -28,6 +28,12 @@ const Home = () => {
                 <HiArrowNarrowRight className="ml-3 " />
               </Link>
             </span>
+          </button>
+
+          <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600 mx-5">
+            <a href="https://acrobat.adobe.com/link/review?uri=urn%3Aaaid%3Ascds%3AUS%3Ad15865a0-da5f-3317-b086-d0cda81dae60">
+              Resume
+            </a>
           </button>
         </div>
       </div>
