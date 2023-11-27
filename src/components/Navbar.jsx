@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import Logo from "../assets/logo.jpeg";
+import Logo from "../assets/logo.jpg";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
@@ -100,6 +100,8 @@ const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://www.linkedin.com/in/sharan-deepak-908b0a19b/"
+              target="_blank"
+              rel="noreferrer"
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -108,6 +110,8 @@ const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://github.com/SharanDeepak01?tab=repositories"
+              target="_blank"
+              rel="noreferrer"
             >
               Github <FaGithub size={30} />
             </a>
@@ -116,6 +120,8 @@ const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://mail.google.com/mail/"
+              target="_blank"
+              rel="noreferrer"
             >
               Email <HiOutlineMail size={30} />
             </a>

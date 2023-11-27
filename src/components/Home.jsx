@@ -31,7 +31,11 @@ const Home = () => {
           </button>
 
           <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600 mx-5">
-            <a href="https://acrobat.adobe.com/link/review?uri=urn%3Aaaid%3Ascds%3AUS%3Ad15865a0-da5f-3317-b086-d0cda81dae60">
+            <a
+              href="https://acrobat.adobe.com/link/review?uri=urn%3Aaaid%3Ascds%3AUS%3Ac13f5f4e-f900-36f1-8c41-07267b3be1ac"
+              target="_blank"
+              rel="noreferrer"
+            >
               Resume
             </a>
           </button>
