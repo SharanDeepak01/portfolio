@@ -18,27 +18,26 @@ const Home = () => {
           In love with Javascript and React
         </p>
         <div className="flex">
-          <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">
-            <Link to="work" smooth={true} duration={500}>
+          <Link to="work" smooth={true} duration={500}>
+            <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">
               Projects
-            </Link>
+              <span className="group-hover:rotate-90 duration-300">
+                <Link to="work" smooth={true} duration={500}>
+                  <HiArrowNarrowRight className="ml-3 " />
+                </Link>
+              </span>
+            </button>
+          </Link>
 
-            <span className="group-hover:rotate-90 duration-300">
-              <Link to="work" smooth={true} duration={500}>
-                <HiArrowNarrowRight className="ml-3 " />
-              </Link>
-            </span>
-          </button>
-
-          <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600 mx-5">
-            <a
-              href="https://acrobat.adobe.com/link/review?uri=urn%3Aaaid%3Ascds%3AUS%3Ac13f5f4e-f900-36f1-8c41-07267b3be1ac"
-              target="_blank"
-              rel="noreferrer"
-            >
+          <a
+            href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:52ac169a-fbf6-3273-94e5-b18d92cb2fa7"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600 mx-5">
               Resume
-            </a>
-          </button>
+            </button>
+          </a>
         </div>
       </div>
     </div>

@@ -43,9 +43,9 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="contact" smooth={true} duration={500}>
+          {/* <Link to="contact" smooth={true} duration={500}>
             Contact
-          </Link>
+          </Link> */}
         </li>
       </ul>
 
@@ -85,12 +85,6 @@ const Navbar = () => {
             Projects
           </Link>
         </li>
-        <li className="py-6 text-4xl">
-          {" "}
-          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
-            Contact
-          </Link>
-        </li>
       </ul>
 
       {/* Social icons */}
@@ -109,21 +103,11 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://github.com/SharanDeepak01?tab=repositories"
+              href="https://github.com/SharanDeepak01"
               target="_blank"
               rel="noreferrer"
             >
               Github <FaGithub size={30} />
-            </a>
-          </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
-            <a
-              className="flex justify-between items-center w-full text-gray-300"
-              href="https://mail.google.com/mail/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Email <HiOutlineMail size={30} />
             </a>
           </li>
         </ul>
